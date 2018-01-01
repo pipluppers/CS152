@@ -125,5 +125,6 @@ int main(int argc, char** argv) {
 		yyin = stdin;
 	}
 	yylex();
+	cout << "Ran with no errors\n";
 	return 0;
 }
